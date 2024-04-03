@@ -1,0 +1,240 @@
+/* Add any additional styling you need */
+
+body{ 
+  font-family: "Varela Round", sans-serif;
+
+}
+h1 {
+  color: #644b43;
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+    font-weight: bolder;
+}
+
+h2 {
+        font-family: "Varela Round", sans-serif;
+        font-weight: 400;
+
+      }
+      
+#home{
+    margin: 120px;
+    padding: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/* Add some basic styling for the navigation bar */
+
+
+
+  ul {
+    margin: 0;
+    padding: 9px;
+    overflow: hidden;
+    background-color: white; /* Set the background color to white */
+}
+  li {
+    display: inline-block;
+    margin: 0 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+  }
+  
+  a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #644b43; /* Example underline color */
+    position: absolute;
+    bottom: 0;
+    transition: width 0.3s; /* Adjust the transition duration as needed */
+  }
+  
+  a:hover::after {
+    width: 100%;
+  }
+  
+  
+li {
+    float: center;
+}
+
+li a {
+   text-align: center;
+    font-family: "Varela Round", sans-serif;
+    font-style: normal;
+    display: block;
+    color: #644b43;
+    padding: 14px 17px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: white;
+}
+
+/* Style each section */
+section {
+    margin: 150px ;
+    padding: 150px;
+}
+
+/* Style the home section */
+#home {
+    text-align: center;
+}
+
+
+
+.active {
+    background-color: #582d1e;
+  }
+
+
+  ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+
+/*Contact Media Bar*/
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 3px solid #77282875;
+    margin-top: 4px;
+    margin-bottom: 16px;
+    resize: vertical;
+    border-radius: 6px;
+  }
+  
+  input[type=submit] {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #d3a292;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+
+
+
+  /* button */
+  input[type=submit]:hover {
+    font-family:Arial, Helvetica, sans-serif;
+    color:  #d3a292;
+    background-color: #edd6cc;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 100px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+
+/*Social Media Styling */
+/* .social-media{
+
+}
+ */
+
+
+
+.contact{
+  text-align: center;
+}
+
+.bar{
+  flex:content;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
+.toolimages {
+  display: flex; /* Use flexbox layout for the container */
+  justify-content: center; /* Center the images horizontally within the container */
+  flex-wrap: wrap; /* Allow wrapping of the images if they exceed the width of the container */
+}
+
+.toolimages img {
+  width: 100px; /* Set the width of the images */
+  height: auto; /* Maintain aspect ratio */
+  margin: 20px; /* Add some margin around the images for spacing */
+}
+
+
+img{
+  float: right;
+  max-width: 28%; /* Ensure image doesn't exceed container width */
+  height: auto;
+  border-radius: 30%;
+}
+
+
+
+
+
+.social-icon{
+  padding: 60px;
+  font-size: 29px;
+}
+
+
+
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #644b43;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+h5 {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+
